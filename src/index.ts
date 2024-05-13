@@ -1,3 +1,5 @@
+import "reflect-metadata";
+
 type xxType<T = any> = new (...args: any[]) => T;
 // 不带参
 function animal(target: xxType, context?: DecoratorContext) {
@@ -41,3 +43,5 @@ class Person {
 const person = new Person({ name: "xiaoming" });
 console.log(person.getType());
 console.log("print person.name", person.name);
+Reflect.defineMetadata("class", "person", Person);
+console.log(Reflect.getMetadata("class", Person));
