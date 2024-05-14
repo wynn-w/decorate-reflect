@@ -10,12 +10,12 @@
     "decorate",
     "reflect-metadata"
   ],
-  "author": "wwwyn22@gmail.com",
+  "author": "wwwynn22@gmail.com",
   "license": "MIT",
   "devDependencies": {
+    "reflect-metadata": "^0.2.1",
     "ts-node": "^10.9.2",
     "typescript": "^5.4.5"
-    "reflect-metadata": "^0.2.1"
   },
   "dependencies": {
   }

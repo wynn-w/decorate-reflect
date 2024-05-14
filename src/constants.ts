@@ -1,0 +1,1 @@
+export const requestTypeList = ["GET", "POST"] as const;
